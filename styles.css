@@ -5,15 +5,15 @@ header#portfolio-header {
   text-align: center;
 }
 
-h1{
+h1 {
   font-weight: bold;
-  color:rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
-#slogan{
+#slogan {
   font-weight: lighter;
   font-size: 1.6rem;
-  color:rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 main {
@@ -28,7 +28,7 @@ main {
   width: 100%;
 }
 
-body{
+body {
   margin-bottom: 10rem;
 }
 
@@ -40,15 +40,13 @@ footer#connect {
   z-index: 1;
 }
 
-
 #footer-links {
   margin: auto;
   font-size: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
-  header#portfolio-header{
+  header#portfolio-header {
     display: flex;
   }
-
 }
