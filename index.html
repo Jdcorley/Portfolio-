@@ -1,47 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html class="mdl-js">
   <head>
     <title> | Jack Corley</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-amber.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <header id="portfolio-header">
+    <header id="portfolio-header" class="mdl-layout_header md1-layout_header--transparent">
       <h1>Jack Corley</h1>
       <p id=slogan>Super Slogan</p>
     </header>
-    <main>
-
-      <div class="project featured-project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot" />
-        <h2>Featured Project Name</h2>
-        <p>Project description text</p>
+        <main class="mdl-layout_content mdl-grid">
+            <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+        <div class"mdl-card_media mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot" />
+        </div>
+        <div class="mdl-cell mdl-cell--7-col">
+          <h2 class="mdl-card_title-text">Featured Project Name</h2>
+          <p class="project-description mdl-card_supporting-text">Project description text</p>
+        </div>
       </div>
-
-      <div class="project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot" />
-        <h2>Project Name</h2>
-        <p>Project description text</p>
-        </p>
+            <div class="project mdl-cell cdl-card mdl-shadow--4dp">
+        <div class"mdl-card_media">
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot" />
+        </div>
+        <div class="mdl-card_title">
+          <h2 class="mdl-card_title-text">Project Name</h2>
+        </div>
+        <div class="mdl-card_supporting-text">Project description text</div>
       </div>
-
-      <div class="project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot" />
-        <h2>Project Name</h2>
-      </p>Project description text</p>
+            <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div class="mdl-card_media">
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot" />
+        </div>
+        <div class="mdl-card_title-text">
+          <h2 class="mdl-card_title-text">Project Name</h2>
+        </div>
+        <div class="mdl-card_supporting-text">Project description text</div>
       </div>
-
-      <div class="project">
+            <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div class="mdl-card_media">
         <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot" />
-        <h2>Project Name</h2>
-        <p>Project description text</p>
-      </div>
-
-    </main>
-    <footer id="connect">
-      <ul id="footer-links">
-        <li> <a href="https://www.linkedin.com/in/jack-corley-00242211a/">LinkedIn</a> </li>
-        <li> <a href="https://github.com/Jdcorley">GitHub</a> </li>
-        <li> <a href="mailto:jdcorley@gmail.com">Email</a> </li>
-      </ul>
-    </footer>
+        </div>
+        <div class="mdl-card_title">
+        <h2 class="mdl-card_title-text">Project Name</h2>
+       </div>
+        <div class="mdl-card_supporting-text">Project description text</div>
+            </div>
+          </main>
   </body>
+  <footer id="connect" class="mdl-mini-footer">
+    <ul id="footer-links" class="mdl-mini-footer_link-list">
+      <li>
+        <a href="https://www.linkedin.com/in/jack-corley-00242211a/">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Jdcorley">
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:jdcorley@gmail.com">
+            <i class="fa fa-envelope-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
 </html>
